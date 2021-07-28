@@ -3,6 +3,7 @@ class ActiveAlarmPage
 getclickonalarm()
 {
     return cy.get(':nth-child(4) > .submenu-toggle > .menu-text')
+    //wait
 }
 getclickonDevicename()
 {
