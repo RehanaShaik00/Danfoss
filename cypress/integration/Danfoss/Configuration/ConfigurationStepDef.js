@@ -6,6 +6,7 @@ const Configuration = new ConfigurationPage()
 Given('I click on Configuration Section of svb5 System Manager', function() {
     //cy.visit('http://118.185.187.242:6031/MCXWeb.html')
     Configuration.getNavigatetoConfiguration().click()
+    cy.wait(25000)
 })
 When('I navigate to Alarm in Configuration Section', function() {
     Configuration.getnavigatetoAlarm().click()
