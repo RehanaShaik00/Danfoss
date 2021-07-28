@@ -6,7 +6,7 @@ const ActiveAlarm = new ActiveAlarmPage()
 const Acknowledgealarm = new AcknowledgeAlarmPage()
 Given('I click on Alarms Section of svb5 System Manager', function() {
     ActiveAlarm.getclickonalarm().click()
-    cy.wait(5000)
+    cy.wait(20000)
 })
 When('I click on Device AK-SM880A in Active Alarms', function() {
     ActiveAlarm.getclickonDevicename().click()
