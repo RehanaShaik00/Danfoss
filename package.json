@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
+    "testrunner": "node_modules\\.bin\\cypress open",
     "feature": "npx cypress run --spec cypress\\integration\\Danfoss\\*.feature --headed --browser chrome", 
     "DashBoard": " node_modules//.bin//cypress run --record --key 177da024-440f-4348-85ca-efc356611308",
     "mochawesome":"npx cypress run --reporter mochawesome"
